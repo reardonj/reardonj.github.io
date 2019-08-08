@@ -10,7 +10,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/png" sizes="32x32" href="/reverie/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
     <script type="text/javascript">
       var host = "www.amitmerchant.com";
       if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -24,11 +24,9 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
             <div class="site-info">
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p> 
             </div>
 
             <nav>
@@ -50,6 +48,9 @@
         <div class="container">
           <footer class="footer">
             {% include svg-icons.html %}
+            <p>Content copyright 2019 Justin Reardon. All rights reserved.</p>
+            <p>Site based on the <a href="https://github.com/amitmerchant1990/reverie">reverie</a> theme, licenced under <a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
+            <p><a href="https://www.iconfinder.com/iconsets/black-white-social-media">Social media icons</a> by <a href="https://creativemarket.com/alfredocreates?u=AlfredoCreates">alfredocreates</a>, licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC By 3.0</a>.</p>
           </footer>
         </div>
       </div>
