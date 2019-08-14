@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-
+  
+{% if paginator.previous_page == nil %}
+<div class="intro">
+  <p>I'm Justin Reardon, a software developer and table-top role-playing game enthusiast. This site is mostly a collection of personal coding projects and notes.</p>
+</div>
+{% endif %}
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">

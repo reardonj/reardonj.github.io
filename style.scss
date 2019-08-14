@@ -250,7 +250,7 @@ p > img {
 }
 
 .masthead {
-  padding: 15px 0;
+  padding: 22px 0px 15px 0px;
   border-bottom: 1px solid $lightGray;
 
   display: flex;
@@ -278,7 +278,6 @@ p > img {
 .site-name {
   margin: 0;
   color: $darkGray;
-  cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
@@ -371,28 +370,43 @@ nav {
 }
 
 .wrapper-main {
-  padding-bottom: 134px;
+  padding-bottom: 198px;
 }
 
 .wrapper-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: $lightGray;
+  background-color: lighten($color: $lightGray, $amount: 10) ;
 }
 
-footer {
-  padding: 20px 0;
+.social-footer, .copyright-footer {
+  padding: 25px 0;
   text-align: center;
   color: $white;
   font-size: 10pt;
+
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+
+  a {
+    margin: 0px 5px;
+  }
+}
+
+.copyright-footer {
+  background-color: $lightGray;
 
   p {
     margin: 0px 0px;
   }
 
   a {
-    color: lighten($color: $blue, $amount: 30)
+    color: lighten($color: $blue, $amount: 40);
+    text-decoration: underline;
   }
 }
 
