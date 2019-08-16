@@ -1,0 +1,13 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+<dl id="projects">
+{% for project in site.projects %}
+
+    <dt class="category-head"><a href="{{ project.url}}">{{ project.title }}</a></dt>
+    <dd>{{ project.description }}</dd>
+
+{% endfor %}
+</div>
