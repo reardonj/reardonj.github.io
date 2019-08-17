@@ -6,12 +6,39 @@ layout: default
 <div class="intro">
   <p>I'm Justin Reardon, a software developer and table-top role-playing game enthusiast. This site is mostly a collection of personal coding projects and notes.</p>
 </div>
-{% endif %}
+<div class="home-overview">
+  <div class="projects">
+    <h2>Projects</h2>
+    <ul>
+      {% for project in site.projects %}
+        <li><a href="{{ project.url}}">{{ project.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>Posts</h2>
+    <ul>
+    {% if paginator.posts == nil %}
+    <li><em>Nothing Yet!</em></li>
+    {% else %}
+        {% for post in paginator.posts %}
+
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+
+        {% endfor %}
+    {% endif %}
+    </ul>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">More &hellip;;</a>
+    {% endif %}
+  </div>
+</div>
+{% else %}
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div>
         <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
@@ -52,3 +79,4 @@ layout: default
   </div>
   {% endif %}
 </div>
+  {% endif %}

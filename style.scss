@@ -49,7 +49,6 @@ h1, h2, h3, h4, h5, h6 {
 
   @include mobile {
     line-height: 1.4;
-    text-align: center;
   }
 }
 
@@ -348,6 +347,26 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+  }
+}
+
+.home-overview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  div {
+    flex-basis: 50%;
+    flex-grow: 1;
+
+    @include mobile {
+      flex-basis: auto;
+      flex-grow: 0;
+    }
+  }
+  
+  @include mobile {
+    flex-direction: column;
   }
 }
 
