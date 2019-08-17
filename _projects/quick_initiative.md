@@ -4,7 +4,7 @@ description: A React based initiative tracker for d20 based roleplaying games.
 links:
     - name: Get the Code
       link: https://github.com/reardonj/quick-initiative
-    - name: Run It
+    - name: Run the App
       link: https://quick-initiative.jmreardon.com/
 ---
 
@@ -12,7 +12,8 @@ This is a small React application for running combat in d20 based roleplaying ga
 
 ## Features
 - Supports HP tracking and quickly duplicating entries.
-- History, saved using client-side data-storage using the local storage API.
+- Entry history and groups, saved on the client using the local storage API.
 
-## TODOs
-- Support mobile-size screens
+## Todos
+- Support mobile-sized screens.
+- Explore React unit-testing libraries.
