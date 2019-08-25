@@ -15,5 +15,5 @@ This is a small React application for running combat in d20 based roleplaying ga
 - Entry history and groups, saved on the client using the local storage API.
 
 ## Todos
-- Support mobile-sized screens.
+- ~~Support mobile-sized screens.~~ Done.
 - Explore React unit-testing libraries.

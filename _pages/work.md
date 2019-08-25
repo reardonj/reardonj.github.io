@@ -4,7 +4,7 @@ title: Work
 permalink: /work/
 ---
 
-Interested in having me work for you? Send me a message for a current copy of my résumé. A summary of my areas of expertise is below.
+Interested in hiring me? Send me a message for a current copy of my résumé. A summary of my areas of expertise is below.
 
 ## Education
 
