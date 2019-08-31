@@ -14,7 +14,7 @@ Interested in hiring me? Send me a message for a current copy of my résumé. A 
 
 - C#, WPF, &amp; XAML
 - SQL and database design, mostly on SQL Server &amp; SQLite
-- Concurrent, asynchronous and multithreaded programming techniques
+- Concurrent, asynchronous and multi-threaded programming techniques
 
 ## Familiar With
 - C, C++, Java

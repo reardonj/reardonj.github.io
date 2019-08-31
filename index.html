@@ -1,12 +1,22 @@
 ---
 layout: default
 ---
-  
-{% if paginator.previous_page == nil %}
 <div class="intro">
-  <p>I'm Justin Reardon, a software developer, cushion for my cat, and table-top role-playing game enthusiast. This site is mostly a collection of personal coding projects and notes.</p>
+  <p>I'm Justin Reardon, a software developer, cushion for my cat, amateur cook, and table-top role-playing game enthusiast. This site is mostly a collection of personal coding projects and notes.</p>
 </div>
-<div class="home-overview">
+<div class="columns">
+  {% for category in site.categories %}
+  <div>
+    <h2>{{ category[0] }}</h2>
+    <ul>
+    {% for post in category[1] %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/>
+        <span class="author_title">{{ post.date | date: "%B %e, %Y" }}</span>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
   <div class="projects">
     <h2>Projects</h2>
     <ul>
@@ -15,68 +25,4 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-  <div>
-    <h2>Posts</h2>
-    <ul>
-    {% if paginator.posts == nil %}
-    <li><em>Nothing Yet!</em></li>
-    {% else %}
-        {% for post in paginator.posts %}
-
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-
-        {% endfor %}
-    {% endif %}
-    </ul>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">More &hellip;;</a>
-    {% endif %}
   </div>
-</div>
-{% else %}
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div>
-        <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
-      </div>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-
-  <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="/">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-  </div>
-  {% endif %}
-</div>
-  {% endif %}

@@ -1,7 +1,8 @@
 ---
 title: Notes on Building This Site
+categories: [Coding]
 ---
-It’s been about a decade since I've web development, but not a whole lot seems to have changed for basic HTML work. The few changes that have happened made setting this site up easier though:
+It has been about a decade since I've web development, but not a whole lot seems to have changed for basic HTML work. The few changes that have happened made setting this site up easier though:
 
 * CSS Flexbox is a *massive* improvement over fiddling with floats and Clearfix hacks. 
 * Media queries exist, and responsive pages are standard now!
