@@ -2,7 +2,7 @@
 title: Nutty Sautéed Chicken
 categories: [Food]
 ---
-This recipe came about from me casting around the internet for recipes to use up leftover cashews, and is heavy derived from [this](https://www.wholekitchensink.com/paleo-cashew-chicken/) recipe. 
+This recipe came about from me casting around the internet for recipes to use up leftover cashews, and is heavy derived from [this](https://www.wholekitchensink.com/paleo-cashew-chicken/) recipe.
 
 I'm loathe to call the sauce a 'peanut sauce', as its proportions are largely reversed from a typical peanut sauce. The lighter flavour does give more room for the rest of the flavours in the dish to come out.
 
@@ -49,6 +49,7 @@ I'm loathe to call the sauce a 'peanut sauce', as its proportions are largely re
 
 ## Notes
 **Serves:** 4, or more with accompaniments.
+
 **Serve With.** I did brown rice to accompany the dish. I'd expect it to work well with udon noodles too, with a bit more sauce for the noodles to soak.
 
 **Spicy?** This dish tastes like there should be a spicy version of it. It might just be replacing the peppers with hot ones, or reworking the sauce. This is on my TODO list.

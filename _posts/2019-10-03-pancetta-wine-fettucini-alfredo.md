@@ -38,4 +38,5 @@ A new issue of [Food & Drink](http://foodanddrink.ca/fooddrink/magazine/en/Autum
 
 ## Notes
 **Serves:** 2.
+
 **Timing:** Ideally, you'll finish the pasta and sauce about the same time so the pasta doesn't have a chance to cook before you stir it in.
