@@ -347,7 +347,7 @@ nav {
   }
 }
 
-.columns {
+.columns, .column-list ul, .colum-list ol {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -361,7 +361,7 @@ nav {
       flex-grow: 0;
     }
   }
-  
+
   @include mobile {
     flex-direction: column;
   }

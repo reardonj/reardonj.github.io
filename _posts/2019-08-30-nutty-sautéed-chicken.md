@@ -48,6 +48,7 @@ I'm loathe to call the sauce a 'peanut sauce', as its proportions are largely re
 0. Add the sauce to the pan, and stir to coat. Continue cooking until the sauce has thickened and starting to bubble. Stir in the cashews, and serve with the green tops of the scallions for garnish.
 
 ## Notes
+**Serves:** 4, or more with accompaniments.
 **Serve With.** I did brown rice to accompany the dish. I'd expect it to work well with udon noodles too, with a bit more sauce for the noodles to soak.
 
 **Spicy?** This dish tastes like there should be a spicy version of it. It might just be replacing the peppers with hot ones, or reworking the sauce. This is on my TODO list.

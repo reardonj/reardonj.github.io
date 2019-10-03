@@ -18,13 +18,13 @@ description: Justin Reardon's personal site.
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: justin.reardon@gmail.com
+  email: me@jmreardon.com
   github: reardonj
   linkedin: reardonj
   rss: rss
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: 
+google_analytics:
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
@@ -90,4 +90,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
