@@ -355,6 +355,7 @@ nav {
   * {
     flex-basis: 50%;
     flex-grow: 1;
+    padding-right: 1em;
 
     @include mobile {
       flex-basis: auto;
