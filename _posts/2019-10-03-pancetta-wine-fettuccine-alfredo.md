@@ -1,8 +1,8 @@
 ---
-title: Pancetta & Wine Fettucini Alfredo
+title: Pancetta & Wine Fettuccine Alfredo
 categories: [Food]
 ---
-A new issue of [Food & Drink](http://foodanddrink.ca/fooddrink/magazine/en/Autumn2019/FDAU19.html) recently came out, with a [variation](https://www.lcbo.com/lcbo/recipe/white-wine-fettucine-alfredo/F201905013) on fettucini alfredo I was keen to try. However, I had some pancetta in the fridge to use, and wasn't cooking for four any time soon. So, I tweaked the recipe, invited a friend over and picked out a bottle of wine to make my own version:
+A new issue of [Food & Drink](http://foodanddrink.ca/fooddrink/magazine/en/Autumn2019/FDAU19.html) recently came out, with a [variation](https://www.lcbo.com/lcbo/recipe/white-wine-fettucine-alfredo/F201905013) on fettuccine alfredo I was keen to try. However, I had some pancetta in the fridge to use, and wasn't cooking for four any time soon. So, I tweaked the recipe, invited a friend over and picked out a bottle of wine to make my own version:
 ## Ingredients
 
 
@@ -13,7 +13,7 @@ A new issue of [Food & Drink](http://foodanddrink.ca/fooddrink/magazine/en/Autum
 * 2 cloves garlic
 * 1/2 cup white wine[^wine]
 * 150 ml whipping cream (35%)
-* 150g linguini
+* 120g fettuccine
 * 50g Parmigiano-Reggiano
 * 1-2 stalks of flat-leaf parsley
 * ground nutmeg
@@ -29,9 +29,9 @@ A new issue of [Food & Drink](http://foodanddrink.ca/fooddrink/magazine/en/Autum
 
 0. Pour in the rest of the wine. Bring to a gentle simmer, stirring frequently until the wine is reduced by half, about 15 minutes. Then stir the cream in slowly and continue simmering for another 15 minutes. Season to taste with salt and pepper.
 
-0. While the cream mixture is simmering add the linguini to the pot of boiling water and cook until a little short of al dente [^aldente]. Reserve a quarter cup or so of the pasta water and drain[^oil].
+0. While the cream mixture is simmering add the fettuccine to the pot of boiling water and cook until a little short of al dente [^aldente]. Reserve a quarter cup or so of the pasta water and drain[^oil].
 
-0. Once the sauce is reduced, add the pasta and stir, coating it thoroughly. Continue cooking for a few minutes until the pasta is al dente. Stir in the cheese and parsley. If the sauce is getting too thick, add a bit of the reserved water. Stir in the butter, season to taste with nutmeg, salt, and pepper. Serve!
+0. Once the sauce is reduced, add the pasta and stir, coating it thoroughly. Continue cooking for a few minutes until the pasta is al dente. Stir in the cheese and parsley. If the sauce is getting too thick, add a bit of the reserved water. Stir in the butter and then the pancetta. Season to taste with nutmeg, salt, and pepper. Serve!
 
 [^aldente]: A minute or two less than the package directions should be good.
 [^oil]: If the sauce still needs some time, toss with a bit of oil so it doesn't stick together.
