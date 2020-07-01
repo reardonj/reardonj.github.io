@@ -2,27 +2,25 @@
 layout: default
 ---
 <div class="intro">
-  <p>I'm Justin Reardon, a software developer, cushion for my cat, amateur cook, and table-top role-playing game enthusiast. This site is mostly a collection of personal coding projects and notes.</p>
+  <p>I'm Justin Reardon, a software developer, cushion for my cat, amateur cook, and table-top role-playing game
+    enthusiast. This site is mostly a collection of personal coding projects and notes.</p>
 </div>
-<div class="columns">
-  {% for category in site.categories %}
-  <div>
-    <h2>{{ category[0] }}</h2>
-    <ul>
-    {% for post in category[1] %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/>
-        <span class="author_title">{{ post.date | date: "%B %e, %Y" }}</span>
-      </li>
+  <h2>Personal Projects</h2>
+  <div c  lass="projects columns">
+    {% for project in site.projects %}
+    <div>
+      <h3><a href="{{ project.url}}">{{ project.title }}</a></h3>
+      {{project.description}}
+    </div>
     {% endfor %}
-    </ul>
+</div>
+<h2>Posts</h2>
+
+<div class="columns">
+  {% for post in site.posts %}
+  <div>
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    <span class="author_title">{{ post.date | date: "%B %e, %Y" }}</span>
   </div>
   {% endfor %}
-  <div class="projects">
-    <h2>Projects</h2>
-    <ul>
-      {% for project in site.projects %}
-        <li><a href="{{ project.url}}">{{ project.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  </div>
+</div>
