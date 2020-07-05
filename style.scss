@@ -365,7 +365,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
 
-  * {
+  div {
     flex-basis: 50%;
     flex-grow: 1;
     padding-right: 1em;
@@ -451,6 +451,11 @@ nav {
 
 .author_title{
   color: #939aa1;
+
+  a {
+    color: #939aa1;
+    text-decoration: none;
+  }
 
   @include mobile {
     text-align: center;
