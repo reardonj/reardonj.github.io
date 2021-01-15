@@ -1,18 +1,19 @@
 ---
 layout: default
+title: Home
 ---
 <div class="intro">
   <p>I'm Justin Reardon, a software developer, cushion for my cat, amateur cook, and table-top role-playing game
     enthusiast. This site is mostly a collection of personal coding projects and notes.</p>
 </div>
-  <h2>Personal Projects</h2>
-  <div c  lass="projects columns">
-    {% for project in site.projects %}
-    <div>
-      <h3><a href="{{ project.url}}">{{ project.title }}</a></h3>
-      {{project.description}}
-    </div>
-    {% endfor %}
+<h2>Personal Projects</h2>
+<div class="projects columns">
+  {% for project in site.projects %}
+  <div>
+    <h3><a href="{{ project.url}}">{{ project.title }}</a></h3>
+    {{project.description}}
+  </div>
+  {% endfor %}
 </div>
 <h2>Posts</h2>
 
@@ -22,8 +23,8 @@ layout: default
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     <span class="author_title">
       {% for category in post.categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-        {% unless forloop.last %}&nbsp;{% endunless %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
       &ndash; {{ post.date | date: "%B %e, %Y" }}
     </span>
