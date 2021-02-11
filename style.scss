@@ -528,6 +528,61 @@ Modules - reusable parts of our design
   text-align: center;
 }
 
+
+/* --------------------------------
+
+Art board image styles
+
+-------------------------------- */
+
+.artboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.artboard h3 {
+  width: 100%;
+  font-size: 200%;
+
+  @include mobile {
+    font-size: 120%;
+  }
+
+  font-family: cursive;
+  text-align: center;
+  margin: 0px 4px 0px 4px;
+}
+
+.three-by-two {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.two-by-three {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+}
+
+.four-by-three {
+  width: 66.66%;
+  display: flex;
+  align-items: center;
+}
+
+.six-wide {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
+.artboard-pic {
+  padding: 4px;
+  border-radius: 16px;
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
