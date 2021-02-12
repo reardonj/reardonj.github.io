@@ -381,6 +381,25 @@ nav {
   }
 }
 
+.post-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: space-between;
+
+  @include mobile {
+    flex-wrap: wrap;
+  }
+
+  * {
+    @include mobile {
+      flex-basis: 100%;
+      flex-grow: 0;
+    }
+  }
+}
+
 
 .wrapper-container {
   height: 100%;
@@ -455,10 +474,6 @@ nav {
   a {
     color: #939aa1;
     text-decoration: none;
-  }
-
-  @include mobile {
-    text-align: center;
   }
 }
 
