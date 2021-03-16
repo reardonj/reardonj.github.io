@@ -1,6 +1,16 @@
-{% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}"><i class="svg-icon email"></i></a>{% endif %}
-{% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}"><i class="svg-icon github"></i></a>{% endif %}
-{% if site.footer-links.instagram %}<a href="https://instagram.com/{{ site.footer-links.instagram }}"><i class="svg-icon instagram"></i></a>{% endif %}
-{% if site.footer-links.linkedin %}<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="svg-icon linkedin"></i></a>{% endif %}
-{% if site.footer-links.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon rss"></i></a>{% endif %}
-{% if site.footer-links.twitter %}<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a>{% endif %}
+{% if site.footer-links.email %}<a title="E-mail" href="mailto:{{ site.footer-links.email }}"><i
+    class="svg-icon email"></i></a>{%
+endif %}
+{% if site.footer-links.github %}<a title="Github" href="https://github.com/{{ site.footer-links.github }}"><i
+    class="svg-icon github"></i></a>{% endif %}
+<a title="itch.io" href="https://jmreardon.itch.io/">
+  <div class="img-icon"><img src="images/logo-itchio.png"></img></div>
+</a>
+{% if site.footer-links.instagram %}<a title="Instagram"
+  href="https://instagram.com/{{ site.footer-links.instagram }}"><i class="svg-icon instagram"></i></a>{% endif %}
+{% if site.footer-links.linkedin %}<a title="Linkedin"
+  href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="svg-icon linkedin"></i></a>{% endif %}
+{% if site.footer-links.rss %}<a title="RSS Feed" href="{{ site.baseurl }}/feed.xml"><i class="svg-icon rss"></i></a>{%
+endif %}
+{% if site.footer-links.twitter %}<a title="Twitter" href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i
+    class="svg-icon twitter"></i></a>{% endif %}
