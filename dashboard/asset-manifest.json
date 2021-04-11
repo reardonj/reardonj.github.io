@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/dashboard/static/js/main.bbf1b820.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.bbf1b820.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.8ec71ae4.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.8ec71ae4.js.map",
+    "static/css/2.22c8e39e.chunk.css": "/dashboard/static/css/2.22c8e39e.chunk.css",
+    "static/js/2.150c1f03.chunk.js": "/dashboard/static/js/2.150c1f03.chunk.js",
+    "static/js/2.150c1f03.chunk.js.map": "/dashboard/static/js/2.150c1f03.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "static/css/2.22c8e39e.chunk.css.map": "/dashboard/static/css/2.22c8e39e.chunk.css.map",
+    "static/js/2.150c1f03.chunk.js.LICENSE.txt": "/dashboard/static/js/2.150c1f03.chunk.js.LICENSE.txt",
+    "static/media/blueprint-icons.css": "/dashboard/static/media/icons-20.cde033c5.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ec71ae4.js",
+    "static/css/2.22c8e39e.chunk.css",
+    "static/js/2.150c1f03.chunk.js",
+    "static/js/main.bbf1b820.chunk.js"
+  ]
+}
