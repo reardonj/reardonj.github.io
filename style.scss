@@ -133,22 +133,6 @@ table tr td :last-child {
 	margin-bottom: 0;
 }
 
-#search-container {
-  text-align: center;
-}
-
-#search-input {
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 18px;
-  background-color: #fff3ff;
-}
-
 a {
   color: $blue;
   text-decoration: underline;
@@ -223,16 +207,6 @@ p > img {
 .date {
   font-style: italic;
   color: $gray;
-}
-
-// Specify the color of the selection
-::-moz-selection {
-  color: $black;
-  background: $lightGray;
-}
-::selection {
-  color: $black;
-  background: $lightGray;
 }
 
 /*********************/
@@ -365,7 +339,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
 
-  div {
+  div, li {
     flex-basis: 50%;
     flex-grow: 1;
     padding-right: 1em;
@@ -439,7 +413,6 @@ nav {
 }
 
 .copyright-footer {
-
   p {
     margin: 0px 0px;
   }
@@ -466,7 +439,6 @@ nav {
     text-align: center;
   }
 }
-
 
 .author_title{
   color: #939aa1;
@@ -496,53 +468,6 @@ nav {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
-
-/* --------------------------------
-
-Modules - reusable parts of our design
-
--------------------------------- */
-
-.text-link {
-    color: #000;
-    text-decoration: none;
-    border-bottom: 1px dotted #000;
-}
-
-.post-tags {
-  text-align: center;
-  line-height: 35px;
-}
-
-.post-tags a {
-  font-size: 14.5px;
-  padding: 2px 13px;
-  border: none;
-  background-color: #4CAF50;
-  border-radius: 50px;
-  color: #fff;
-}
-
-.pagination a, .pagination span {
-  padding: 7px 18px;
-  border: 1px solid #eee;
-  margin-left: -2px;
-  margin-right: -2px;
-  background-color: #ffffff;
-  display: inline-block;
-}
-
-.pagination a {    
-  &:hover {
-      background-color: #f1f1f1;
-      color: #333;
-  }
-}
-
-.pagination {
-  text-align: center;
-}
-
 
 /* --------------------------------
 
