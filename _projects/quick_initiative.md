@@ -2,9 +2,9 @@
 title: Quick Initiative
 description: A React based initiative tracker for d20 based roleplaying games. 
 links:
-    - name: Get the Code
+    - name: Repository
       link: https://github.com/reardonj/quick-initiative
-    - name: Run the App
+    - name: Launch
       link: https://quick-initiative.jmreardon.com/
 ---
 
