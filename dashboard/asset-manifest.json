@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.519f7ffa.chunk.css",
-    "main.js": "/dashboard/static/js/main.45a979e9.chunk.js",
-    "runtime-main.js": "/dashboard/static/js/runtime-main.e69dd663.js",
-    "static/css/2.fcef3c5d.chunk.css": "/dashboard/static/css/2.fcef3c5d.chunk.css",
-    "static/js/2.3397cab4.chunk.js": "/dashboard/static/js/2.3397cab4.chunk.js",
+    "main.css": "/dashboard/static/css/main.d4539a47.chunk.css",
+    "main.js": "/dashboard/static/js/main.0b97aa40.chunk.js",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.e14693b2.js",
+    "static/css/2.66b99790.chunk.css": "/dashboard/static/css/2.66b99790.chunk.css",
+    "static/js/2.f249643d.chunk.js": "/dashboard/static/js/2.f249643d.chunk.js",
     "index.html": "/dashboard/index.html",
-    "static/js/2.3397cab4.chunk.js.LICENSE.txt": "/dashboard/static/js/2.3397cab4.chunk.js.LICENSE.txt",
+    "static/js/2.f249643d.chunk.js.LICENSE.txt": "/dashboard/static/js/2.f249643d.chunk.js.LICENSE.txt",
     "static/media/blueprint-icons.css": "/dashboard/static/media/icons-20.cde033c5.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.e69dd663.js",
-    "static/css/2.fcef3c5d.chunk.css",
-    "static/js/2.3397cab4.chunk.js",
-    "static/css/main.519f7ffa.chunk.css",
-    "static/js/main.45a979e9.chunk.js"
+    "static/js/runtime-main.e14693b2.js",
+    "static/css/2.66b99790.chunk.css",
+    "static/js/2.f249643d.chunk.js",
+    "static/css/main.d4539a47.chunk.css",
+    "static/js/main.0b97aa40.chunk.js"
   ]
 }
