@@ -13,13 +13,12 @@ Interested in hiring me? Send me a message for a current copy of my résumé. A 
 ## Adept With
 
 - Scala, Akka
+- Angular, Typescript
 - C#, WPF, &amp; XAML
 - SQL and database design, mostly on SQL Server, MySQL &amp; SQLite
 - Concurrent, asynchronous and multi-threaded programming techniques
 
 ## Familiar With
-- Angular, Typescript, Javascript
-- XML, HTML, CSS
+- XML, HTML, CSS, Javascript
 - C, C++, Java
-- DDS middleware
 - Implementing clients and servers for various network protocols.
