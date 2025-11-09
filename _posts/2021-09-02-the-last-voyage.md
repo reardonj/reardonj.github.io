@@ -6,6 +6,7 @@ links:
       link: https://github.com/reardonj/the-last-voyage
     - name: Launch
       link: https://jmreardon.itch.io/the-last-voyage
+layout: project
 ---
 This is a game I wrote for the [2020 Github Game Off](https://itch.io/jam/game-off-2020). The last time I wrote a game was in Java, ~15 years ago, handling the double-buffering and the whole nine yards myself. These days there seems to be a game engine (or five) for every language. For these purposes of this exercise, I wanted to experiment with using Typescript, so after a bit of poking around, I settled on [Phaser](http://phaser.io/), a 2D javascript game engine, and got typing.
 
