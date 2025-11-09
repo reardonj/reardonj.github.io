@@ -1,4 +1,4 @@
---- 
+---
 ---
 //
 // IMPORTS
@@ -11,6 +11,10 @@
 /**************/
 /* BASE RULES */
 /**************/
+
+@view-transition {
+  navigation: auto;
+}
 
 html {
   font-size: 100%;
@@ -32,6 +36,13 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+}
+
+aside {
+  background: color-mix(in srgb, $blue, white 80%);
+  border-radius: 16px;
+  padding: 1em;
+
 }
 
 h1,
@@ -300,9 +311,38 @@ nav {
   }
 }
 
-//
-// .main
-//
+#main {
+  view-transition-name: main;
+}
+
+@keyframes move-out {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+}
+
+@keyframes move-in {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+::view-transition-old(main) {
+  animation: 0.1s ease-out both move-out;
+}
+
+::view-transition-new(main) {
+  animation: 0.2s ease-in both move-in;
+}
+
 
 #links {
   display: flex;
